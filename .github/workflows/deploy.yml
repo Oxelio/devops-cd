@@ -1,0 +1,24 @@
+name: deploy
+
+on: 
+  push:
+    branches: [main]
+
+jobs:
+  conventional-commit:
+    name: "Conventional commit"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Salutation citoyens"
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npx standard-version
+      - run: 
+        git config --local user.email "github-actions[bot]@users.noreply.github"
+        git config --local user.name "github-actions[bot]"
+      - uses: ad-m/github-push-action@master
+        width:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          branch: main
