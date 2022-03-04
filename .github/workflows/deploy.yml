@@ -3,6 +3,8 @@ name: deploy-cd
 on:
   push:
     branches: [main]
+  pull-request:
+    types: [open]
 jobs:
   conventional-commit:
       name: "Conventional commit"
