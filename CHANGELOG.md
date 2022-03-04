@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 1.0.1 (2022-03-04)
 
+
+### Bug Fixes
+
+* je suis vivant ([1d583c8](https://github.com/Oxelio/devops-cd/commit/1d583c8aa07260339d908c77ae240a73e7ae936f))
+
+### 1.0.1 (2022-03-04)
+
 ### 1.0.1 (2022-03-04)
 
 ### 1.0.1 (2022-03-04)
