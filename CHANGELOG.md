@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/Oxelio/devops-cd/compare/v1.0.3...v1.1.0) (2022-03-04)
+
+
+### Features
+
+* ajout d'une nouvelle feature ([8b0e615](https://github.com/Oxelio/devops-cd/commit/8b0e615c2ba9bab51749051855faace75144c5b3))
+
 ### [1.0.3](https://github.com/Oxelio/devops-cd/compare/v1.0.2...v1.0.3) (2022-03-04)
 
 
