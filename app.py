@@ -18,7 +18,7 @@ def hello():
     Returns:
         str: un message de la plus grande importance
     """
-    return "Hello world !"
+    return "Hello world ! Je suis vivant !"
 
 if __name__ == "__main__":
     app.run(host=HOST,port=PORT)
